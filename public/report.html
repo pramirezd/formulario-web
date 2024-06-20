@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Reportes</h1>
+    <button id="downloadReport">Descargar Reporte</button>
+
+    <script>
+        document.getElementById('downloadReport').addEventListener('click', () => {
+            window.location.href = '/download-report';
+        });
+    </script>
+</body>
+</html>
